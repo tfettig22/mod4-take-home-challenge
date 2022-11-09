@@ -1,70 +1,33 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Mod4 Take Home Challenge
 
-## Available Scripts
+## Introduction
+This is a take-home challenge meant to simulate what sort of challenges I may see during interview processes while I am job hunting.  For this challenge, I was tasked with consuming the [New York Times Top Stories API](https://developer.nytimes.com/docs/top-stories-product/1/overview), and displaying a list of these top stories on my app.  The user should be able to filter the stories based on their 'section' labels, and then click on a story in the list to see more details about the story.  The details page also includes a link to the full article on the NY Times website.  This challenge is meant to be completed in 8 hours or less, and is not meant to be fancy or complex, but rather just show that I can follow a well-thought-out process in a limited amount of time.
 
-In the project directory, you can run:
+## Skills to Showcase
+The main skills that are meant to be showcased by completing this challenge are:
+- A strong understanding of React JS and Front-End best practices
+- My ability to prioritize for MVP
+- An understanding of basic usability practices and standards
+- A clear hierarchy of information
+- Clean, well thought out code
 
-### `npm start`
+## Set-up Instructions
+To view this application locally, follow these steps:
+- Clone down this repository
+- cd into the root directory
+- run `npm install`
+- run `npm start`
+- Your browser should automatically open the application in a new tab, but if not, go to `http://localhost:3000/`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Resources
+- Project board
+- Wireframe
+- [Project Spec](https://mod4.turing.edu/projects/take_home/take_home_fe)
+- [Rubric](https://mod4.turing.edu/projects/take_home/take_home_rubric)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contributors
+Tom Fettig
+- [Github](https://github.com/tfettig22)
+- [LinkedIn](https://www.linkedin.com/in/tom-fettig-86323a115/)
+- [Resume](https://drive.google.com/file/d/1Q-VEsz8L1BLOGF69G3hLonhJFhDf6-4Y/view?usp=sharing)
