@@ -21,7 +21,7 @@ To view this application locally, follow these steps:
 - Your browser should automatically open the application in a new tab, but if not, go to `http://localhost:3000/`
 
 ## Resources
-- Project board
+- [Project board](https://github.com/users/tfettig22/projects/3)
 - Wireframe
 - [Project Spec](https://mod4.turing.edu/projects/take_home/take_home_fe)
 - [Rubric](https://mod4.turing.edu/projects/take_home/take_home_rubric)
