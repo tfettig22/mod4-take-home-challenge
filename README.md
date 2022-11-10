@@ -20,6 +20,10 @@ To view this application locally, follow these steps:
 - run `npm start`
 - Your browser should automatically open the application in a new tab, but if not, go to `http://localhost:3000/`
 
+## Component Diagram
+Here is a diagram outlining the component architecture and the flow of data:
+![Screenshot 2022-11-09 at 8 15 59 PM](https://user-images.githubusercontent.com/101140241/200992476-9bb9fd31-bd94-4247-b509-309c230a2335.png)
+
 ## Resources
 - [Project board](https://github.com/users/tfettig22/projects/3)
 - [Wireframe](https://excalidraw.com/#room=bbaf3bf257e8c610dade,oucscwzX1XsRKzLGyd1_-Q)
