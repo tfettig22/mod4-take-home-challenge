@@ -22,7 +22,7 @@ To view this application locally, follow these steps:
 
 ## Resources
 - [Project board](https://github.com/users/tfettig22/projects/3)
-- [Wireframe](https://miro.com/app/board/uXjVPFVP_nw=/?share_link_id=983724284309)
+- [Wireframe](https://excalidraw.com/#room=bbaf3bf257e8c610dade,oucscwzX1XsRKzLGyd1_-Q)
 - [Project Spec](https://mod4.turing.edu/projects/take_home/take_home_fe)
 - [Rubric](https://mod4.turing.edu/projects/take_home/take_home_rubric)
 
