@@ -1,6 +1,7 @@
 .header-container {
   width: 100%;
   margin: .5% 0% 1% 0%;
+  border-bottom: 1px solid black;
 }
 
 .header {

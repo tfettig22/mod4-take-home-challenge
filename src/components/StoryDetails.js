@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { formatSection } from '../utility';
 import { useNavigate } from 'react-router-dom';
+import './StoryDetails.css';
 
 const StoryDetails = ({ stories }) => {
   const navigate = useNavigate()
@@ -12,17 +13,18 @@ const StoryDetails = ({ stories }) => {
   console.log(selectedStory)
 
   return (
-    <div>
-      <p>{selectedStory.title}</p>
-      <p>{selectedStory.byline}</p>
-      <p>{selectedStory.abstract}</p>
-      <p>Published: {publishedDate}</p>
-      <p>Updated: {updatedDate}</p>
-      <p>{formatSection(selectedStory.section)}</p>
-      <p>{formatSection(selectedStory.subsection)}</p>
-      <a href={selectedStory.url}>See Full Article</a>
-      <img src={selectedStory.multimedia[1].url} alt=''/>
-      <button onClick={() => navigate('/')}>Return to home page</button>
+    <div className='full-details-container'>
+      <p className='title'>{selectedStory.title}</p>
+      <p className='byline'>{selectedStory.byline}</p>
+      <div>
+        <p className='date'>Published: {publishedDate}</p>
+        <p className='date'>Updated: {updatedDate}</p>
+      </div>
+      <p className='section'>{formatSection(selectedStory.section)}</p>
+      <p className='abstract'>{selectedStory.abstract}</p>
+      <a className='link' href={selectedStory.url}>See Full Article</a>
+      <img className='image' src={selectedStory.multimedia[1].url} alt=''/>
+      <button className='home-button' onClick={() => navigate('/')}>Return to home page</button>
     </div>
   )
 }
