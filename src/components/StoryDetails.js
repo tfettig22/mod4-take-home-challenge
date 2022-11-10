@@ -1,9 +1,8 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useParams } from 'react-router-dom';
 import { formatSection } from '../utility';
 import { useNavigate } from 'react-router-dom';
 import './StoryDetails.css';
-import { getStories } from '../apiCalls';
 
 const StoryDetails = ({ stories, setStories }) => {
   const navigate = useNavigate()

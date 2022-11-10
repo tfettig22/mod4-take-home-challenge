@@ -15,13 +15,13 @@ const Filter = ({ setStories }) => {
 
   const options = sections.map(section => {
     return (
-      <option value={section}>{formatSection(section)}</option>
+      <option key={section} value={section}>{formatSection(section)}</option>
     )
   })
 
   return (
     <div className='dropdown'>
-      <label htmlFor='section-select'>Choose a section: </label>
+      <label className='label' htmlFor='section-select'>Choose a section: </label>
       <select className='dropdown-select' name='sections' id='section-select' onChange={(event) => onChangeHandler(event.target.value)}>
         <option value='' hidden={true}>Please select an option</option>
         {options}

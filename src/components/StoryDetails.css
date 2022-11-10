@@ -5,8 +5,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  border: 5px groove grey;
+  border: 5px solid grey;
   border-radius: 20px;
+  background-color: rgb(205, 205, 205)
 }
 
 .title {
