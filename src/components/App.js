@@ -13,6 +13,7 @@ function App() {
   useEffect(() => {
     getStories('home').then(data => {
       setStories(data.results);
+      console.log(data.results)
     })
   }, []);
 

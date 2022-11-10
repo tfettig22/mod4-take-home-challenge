@@ -22,7 +22,7 @@ const Filter = ({ setStories }) => {
   return (
     <div className='dropdown'>
       <label htmlFor='section-select'>Choose a section: </label>
-      <select name='sections' id='section-select' onChange={(event) => onChangeHandler(event.target.value)}>
+      <select className='dropdown-select' name='sections' id='section-select' onChange={(event) => onChangeHandler(event.target.value)}>
         <option value='' hidden={true}>Please select an option</option>
         {options}
       </select>
