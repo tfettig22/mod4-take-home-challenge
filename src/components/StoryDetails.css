@@ -10,14 +10,19 @@
 }
 
 .title {
-  font-size: 2.3em;
+  font-size: 200%;
+  text-align: center;
 }
 
 .byline,
 .abstract,
 .section,
 .link {
-  font-size: 1.3em;
+  font-size: 130%;
+}
+
+.date {
+  font-size: 100%;
 }
 
 .abstract {
@@ -27,6 +32,8 @@
 
 .home-button {
   margin-bottom: 1%;
+  border-radius: 10px;
+  width: 15%;
 }
 
 .section {
@@ -35,5 +42,6 @@
 
 .image {
   border-radius: 10px;
+  width: 45%;
   border: 1px solid black;
 }
