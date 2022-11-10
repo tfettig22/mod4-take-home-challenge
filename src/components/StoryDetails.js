@@ -1,16 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { formatSection } from '../utility';
 import { useNavigate } from 'react-router-dom';
 import './StoryDetails.css';
+import { getStories } from '../apiCalls';
 
-const StoryDetails = ({ stories }) => {
+const StoryDetails = ({ stories, setStories }) => {
   const navigate = useNavigate()
   const params = useParams()
   const selectedStory = stories.find(story => story.title.includes(params.title))
   const publishedDate = new Date(selectedStory.published_date).toLocaleString('en-US', {dateStyle: 'medium', timeStyle: 'short'})
   const updatedDate = new Date(selectedStory.updated_date).toLocaleString('en-US', {dateStyle: 'medium', timeStyle: 'short'})
-  console.log(selectedStory)
 
   return (
     <div className='full-details-container'>
@@ -23,7 +23,8 @@ const StoryDetails = ({ stories }) => {
       <p className='section'>{formatSection(selectedStory.section)}</p>
       <p className='abstract'>{selectedStory.abstract}</p>
       <a className='link' href={selectedStory.url}>See Full Article</a>
-      <img className='image' src={selectedStory.multimedia[1].url} alt=''/>
+      {selectedStory.multimedia && <img src={selectedStory.multimedia[1].url} alt='' className='image'/>}
+      {!selectedStory.multimedia && <p className='no-img-big'>No Image Found</p>}
       <button className='home-button' onClick={() => navigate('/')}>Return to home page</button>
     </div>
   )

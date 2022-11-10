@@ -10,7 +10,7 @@
 }
 
 .title {
-  font-size: 200%;
+  font-size: 2em;
   text-align: center;
 }
 
@@ -18,11 +18,11 @@
 .abstract,
 .section,
 .link {
-  font-size: 130%;
+  font-size: 1.3em;
 }
 
 .date {
-  font-size: 100%;
+  font-size: 1em;
 }
 
 .abstract {
@@ -44,4 +44,44 @@
   border-radius: 10px;
   width: 45%;
   border: 1px solid black;
+}
+
+.no-img-big {
+  border-radius: 10px;
+  width: 45%;
+  height: 45%;
+  border: 1px solid black;
+  text-align: center;
+  padding-top: 150px;
+}
+
+@media (max-width: 820px) {
+  .image {
+    width: 95%;
+  }
+
+  .home-button {
+    width: 30%;
+  }
+}
+
+@media (max-width: 450px) {
+  .full-details-container {
+    width: 95%;
+  }
+
+  .title {
+    font-size: 1.4em;
+  }
+
+  .byline,
+  .abstract,
+  .section,
+  .link {
+    font-size: .9em;
+  }
+
+  .date {
+    font-size: .7em;
+  }
 }
